@@ -14,4 +14,5 @@ This is a machine that allows you to practise **web app hacking** and **privileg
 Initial scan to identify open ports and services:
 ```bash
 nmap -sC -sV -T4 -oX init_scan_BasicPentesting.xml [VICTIM_IP]
+```
 ![Nmap Results](img/nmap_scan.png)
