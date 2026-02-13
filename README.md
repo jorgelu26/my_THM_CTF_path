@@ -13,7 +13,7 @@ This is a machine that allows you to practise **web app hacking** and **privileg
 ### 1.1 Port Scanning (Nmap)
 Initial scan to identify open ports and services:
 ```bash
-nmap -sC -sV -T4 -oX init_scan_BasicPentesting.xml [VICTIM_IP]
+nmap -sC -sV -T4 -oX init_scan.xml [VICTIM_IP]
 ```
 The output is **.xml** format so I can change it to html with the `xsltproc` tool.
 
