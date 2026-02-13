@@ -102,7 +102,7 @@ To streamline the enumeration process, I decided to use **LinPEAS**, an automate
 
 After trying looking for many CVE reported on my output LinPEAS file, I tried many coincidences as “password”, “SUID”, “CVE”… etc. Also tried to exploit few of them until I spotted these results searching for “keys” on my output file:
 
-![image.png](linpeas_data.png)
+![image.png](img/linpeas_data.png)
 
 ### **3.2 Cracking the SSH Private Key**
 
